@@ -10,3 +10,5 @@ Getting Started
 26 Jan 2017 - Add Methods and Debugging - Exercises.
 
 28 Jan 2017 - Add Arrays - Lab.
+
+31 Jan 2017 - Add Arrays - Exercises.

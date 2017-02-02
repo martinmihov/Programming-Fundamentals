@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 RemoveNegativesandReverse", "01 RemoveNegativesandReverse\01 RemoveNegativesandReverse.csproj", "{6694A55E-ED32-45FE-8336-FC6B2CBDC16A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 SortNumbers", "05 SortNumbers\05 SortNumbers.csproj", "{B51E9AE7-5243-421C-BD7B-7E76106454F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 CountNumbers", "07 CountNumbers\07 CountNumbers.csproj", "{FE173A4C-154C-45F5-AA09-C40C52BACE34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06  SquareNumbers", "06  SquareNumbers\06  SquareNumbers.csproj", "{CED77202-587B-4674-9116-7BBB74A228E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 AppendLists", "02 AppendLists\02 AppendLists.csproj", "{5C624B92-EB5B-402B-B4A5-DB8ABBBAC06E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Sum AdjacentEqualNumbers", "03 Sum AdjacentEqualNumbers\03 Sum AdjacentEqualNumbers.csproj", "{F8B90486-7F02-4817-B5EE-7FCDD44327CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 SplitByWordCasing", "04 SplitByWordCasing\04 SplitByWordCasing.csproj", "{D82B7469-84B2-4DC4-B41F-2B10D02A5F6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6694A55E-ED32-45FE-8336-FC6B2CBDC16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6694A55E-ED32-45FE-8336-FC6B2CBDC16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6694A55E-ED32-45FE-8336-FC6B2CBDC16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6694A55E-ED32-45FE-8336-FC6B2CBDC16A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B51E9AE7-5243-421C-BD7B-7E76106454F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B51E9AE7-5243-421C-BD7B-7E76106454F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B51E9AE7-5243-421C-BD7B-7E76106454F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B51E9AE7-5243-421C-BD7B-7E76106454F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE173A4C-154C-45F5-AA09-C40C52BACE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE173A4C-154C-45F5-AA09-C40C52BACE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE173A4C-154C-45F5-AA09-C40C52BACE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE173A4C-154C-45F5-AA09-C40C52BACE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED77202-587B-4674-9116-7BBB74A228E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED77202-587B-4674-9116-7BBB74A228E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED77202-587B-4674-9116-7BBB74A228E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED77202-587B-4674-9116-7BBB74A228E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C624B92-EB5B-402B-B4A5-DB8ABBBAC06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C624B92-EB5B-402B-B4A5-DB8ABBBAC06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C624B92-EB5B-402B-B4A5-DB8ABBBAC06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C624B92-EB5B-402B-B4A5-DB8ABBBAC06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B90486-7F02-4817-B5EE-7FCDD44327CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B90486-7F02-4817-B5EE-7FCDD44327CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B90486-7F02-4817-B5EE-7FCDD44327CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B90486-7F02-4817-B5EE-7FCDD44327CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82B7469-84B2-4DC4-B41F-2B10D02A5F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82B7469-84B2-4DC4-B41F-2B10D02A5F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82B7469-84B2-4DC4-B41F-2B10D02A5F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82B7469-84B2-4DC4-B41F-2B10D02A5F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

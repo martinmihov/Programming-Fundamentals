@@ -12,3 +12,9 @@ Getting Started
 28 Jan 2017 - Add Arrays - Lab.
 
 31 Jan 2017 - Add Arrays - Exercises.
+
+02 Feb 2017 - Add Lists - Lab.
+
+02 Feb 2017 - Add Lists - Exercises.
+
+02 Feb 2017 - Add Dictionaries,Lambda and Linq - Lab.

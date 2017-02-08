@@ -18,3 +18,7 @@ Getting Started
 02 Feb 2017 - Add Lists - Exercises.
 
 02 Feb 2017 - Add Dictionaries,Lambda and Linq - Lab.
+
+08 Feb 2017 - Add Dictionaries,Lambda Linq - Excercises.
+
+08 Feb 2017 - Add Objects Classes Lab - Lab.

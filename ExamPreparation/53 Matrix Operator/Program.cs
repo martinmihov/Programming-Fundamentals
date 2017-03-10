@@ -83,18 +83,22 @@ namespace _53_Matrix_Operator
                             rowList[index] = rowList[index].Where(o => o < 0)
                                 .ToList();
 
-                            Console.WriteLine(string.Join(" ", rowList[index]));
+                            //Console.WriteLine(string.Join(" ", rowList[index]));
                             break;
 
                         case "col":
-                            int count = 0;
-                            foreach (var item in rowList)
+
+                            for (int row = 0; row < rowList.Count; row++)
                             {
-                                if(item.Count >= 0)
+                                if (index >= rowList[row].Count)
                                 {
-                                    rowList[count] = item.Where(o => o < 0).ToList();
+                                    continue;
                                 }
-                                count++;
+                                if (rowList[row][index] >= 0)
+                                {
+                                    rowList[row].RemoveAt(index);
+                                }
+
                             }
                             break;
                     }
@@ -106,7 +110,7 @@ namespace _53_Matrix_Operator
                         case "row":
 
                             rowList[index] = rowList[index].Where(o => o >= 0).ToList();
-                            Console.WriteLine(string.Join(" ", rowList[index]));
+                            //Console.WriteLine(string.Join(" ", rowList[index]));
                             break;
 
                         case "col":
@@ -119,7 +123,7 @@ namespace _53_Matrix_Operator
                                     if (rowList[count].Contains(item[index]))
                                     {
                                         rowList[count] = rowList[count].Where(o => o != item[index]).ToList();
-                                        Console.WriteLine(string.Join(" ", rowList[count]));
+                                        //Console.WriteLine(string.Join(" ", rowList[count]));
                                     }
                                 }
                                 count++;
@@ -133,7 +137,7 @@ namespace _53_Matrix_Operator
                         case "row":
 
                             rowList[index] = rowList[index].Where(o => Math.Abs(o) % 2 == 0).ToList();
-                            Console.WriteLine(string.Join(" ", rowList[index]));
+                            //Console.WriteLine(string.Join(" ", rowList[index]));
                             break;
 
                         case "col":
@@ -146,7 +150,7 @@ namespace _53_Matrix_Operator
                                     if (rowList[count].Contains(item[index]))
                                     {
                                         rowList[count] = rowList[count].Where(o => o != item[index]).ToList();
-                                        Console.WriteLine(string.Join(" ", rowList[count]));
+                                        //Console.WriteLine(string.Join(" ", rowList[count]));
                                     }
                                 }
                                 count++;
@@ -161,7 +165,7 @@ namespace _53_Matrix_Operator
                     {
                         case "row":
                             rowList[index] = rowList[index].Where(o => Math.Abs(o) % 2 == 1).ToList(); // its working
-                            Console.WriteLine(string.Join(" ", rowList[index]));
+                            //Console.WriteLine(string.Join(" ", rowList[index]));
                             break;
 
                         case "col":
@@ -174,7 +178,7 @@ namespace _53_Matrix_Operator
                                     if (rowList[count].Contains(item[index]))
                                     {
                                         rowList[count] = rowList[count].Where(o => o != item[index]).ToList();
-                                        Console.WriteLine(string.Join(" ", rowList[count]));
+                                        //Console.WriteLine(string.Join(" ", rowList[count]));
                                     }
                                 }
                                 count++;

@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Globalization;
-using System.Text;
 using System.Numerics;
-using System.Threading.Tasks;
 
 namespace _11_Sino_the_Walker
 {

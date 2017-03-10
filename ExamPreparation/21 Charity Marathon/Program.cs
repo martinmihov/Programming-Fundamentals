@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _21_Charity_Marathon
 {
@@ -23,6 +18,7 @@ namespace _21_Charity_Marathon
             decimal totalLaps = numberOfRunnersOnTrack * averageLapsPerRunner;
             decimal distanceRanByAllRunners = (totalLaps * lapLengthInMeters) / 1000;
             decimal moneyRaised = distanceRanByAllRunners * moneyPerKm;
+
             Console.WriteLine($"Money raised: {moneyRaised:f2}");
         }
     }

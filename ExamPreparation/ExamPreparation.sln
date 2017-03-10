@@ -35,8 +35,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "42 Array Manipulator", "42 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "43 Football Standings", "43 Football Standings\43 Football Standings.csproj", "{DF5B81F6-B17F-45F7-960B-B24433276CED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "44 Cubic Messages", "44 Cubic Messages\44 Cubic Messages.csproj", "{FE05F5CF-F56B-4EA3-B7D1-1B921A8DCC9D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "44 Cubic's Messages", "44 Cubic's Messages\44 Cubic's Messages.csproj", "{A33595D5-31FB-4B93-877D-A206DD182A64}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 ExamFirst", "01 ExamFirst\01 ExamFirst.csproj", "{7E81D448-FEE9-4367-A721-89B90EC18D52}"
@@ -125,10 +123,6 @@ Global
 		{DF5B81F6-B17F-45F7-960B-B24433276CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF5B81F6-B17F-45F7-960B-B24433276CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF5B81F6-B17F-45F7-960B-B24433276CED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE05F5CF-F56B-4EA3-B7D1-1B921A8DCC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE05F5CF-F56B-4EA3-B7D1-1B921A8DCC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE05F5CF-F56B-4EA3-B7D1-1B921A8DCC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE05F5CF-F56B-4EA3-B7D1-1B921A8DCC9D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A33595D5-31FB-4B93-877D-A206DD182A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A33595D5-31FB-4B93-877D-A206DD182A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A33595D5-31FB-4B93-877D-A206DD182A64}.Release|Any CPU.ActiveCfg = Release|Any CPU

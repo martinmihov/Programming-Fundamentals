@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace _02_ExamSecond
 {
@@ -58,6 +57,7 @@ namespace _02_ExamSecond
                     }
                     resultBroadcast.Append(sbMessage + " -> ");
                     resultBroadcast.Append(broadcastMessage);
+
                     broadcastList.Add(resultBroadcast.ToString());
                 }
                 else if (matchesPrivMessage.Success)
@@ -96,6 +96,7 @@ namespace _02_ExamSecond
             }
 
             Console.WriteLine("Broadcasts:");
+
             if (broadcastList.Count == 0)
             {
                 Console.WriteLine("None");

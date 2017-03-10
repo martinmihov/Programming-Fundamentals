@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _52_Softuni_Water_Supplies
 {
@@ -12,7 +10,10 @@ namespace _52_Softuni_Water_Supplies
         {
             decimal totalAmountOfWater = decimal.Parse(Console.ReadLine());
 
-            decimal[] bottlesToFill = Console.ReadLine().Split().Select(decimal.Parse).ToArray();
+            decimal[] bottlesToFill = Console.ReadLine()
+                .Split()
+                .Select(decimal.Parse)
+                .ToArray();
 
             decimal bottleCapacity = decimal.Parse(Console.ReadLine());
 

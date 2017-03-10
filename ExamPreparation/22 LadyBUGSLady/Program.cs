@@ -45,6 +45,7 @@ namespace _22_LadyBUGSLady
 
                 commands = Console.ReadLine();
             }
+
             Console.WriteLine(string.Join(" ", arrayField));
         }
 

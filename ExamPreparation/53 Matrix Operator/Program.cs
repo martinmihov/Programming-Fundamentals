@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _53_Matrix_Operator
 {
@@ -17,14 +14,19 @@ namespace _53_Matrix_Operator
 
             for (int i = 0; i < r; i++)
             {
-                rowList.Add(Console.ReadLine().Split().Select(int.Parse).ToList());
+                rowList.Add(Console.ReadLine()
+                    .Split()
+                    .Select(int.Parse)
+                    .ToList());
             }
 
             string inputCommands = Console.ReadLine();
 
             while (inputCommands != "end")
             {
-                string[] commands = inputCommands.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+                string[] commands = inputCommands
+                    .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                    .ToArray();
 
                 switch (commands[0])
                 {
@@ -34,16 +36,19 @@ namespace _53_Matrix_Operator
                         int index = int.Parse(commands[3]);
                         RemoveCommand(rowList, type, position, index);
                         break;
+
                     case "swap":
                         int swapThat = int.Parse(commands[1]);
                         int swapWithThat = int.Parse(commands[2]);
                         SwapCommand(rowList, swapThat, swapWithThat);
                         break;
+
                     case "insert":
                         int rowNumber = int.Parse(commands[1]);
                         int element = int.Parse(commands[2]);
                         InsertCommand(rowList, rowNumber, element);
                         break;
+
                 }
                 inputCommands = Console.ReadLine();
             }
@@ -75,9 +80,12 @@ namespace _53_Matrix_Operator
                     switch (position)
                     {
                         case "row":
-                            rowList[index] = rowList[index].Where(o => o < 0).ToList();
+                            rowList[index] = rowList[index].Where(o => o < 0)
+                                .ToList();
+
                             Console.WriteLine(string.Join(" ", rowList[index]));
                             break;
+
                         case "col":
                             int count = 0;
                             foreach (var item in rowList)
@@ -91,14 +99,18 @@ namespace _53_Matrix_Operator
                             break;
                     }
                     break;
+
                 case "negative":
                     switch (position)
                     {
                         case "row":
+
                             rowList[index] = rowList[index].Where(o => o >= 0).ToList();
                             Console.WriteLine(string.Join(" ", rowList[index]));
                             break;
+
                         case "col":
+
                             int count = 0;
                             foreach (var item in rowList)
                             {
@@ -119,10 +131,13 @@ namespace _53_Matrix_Operator
                     switch (position)
                     {
                         case "row":
+
                             rowList[index] = rowList[index].Where(o => Math.Abs(o) % 2 == 0).ToList();
                             Console.WriteLine(string.Join(" ", rowList[index]));
                             break;
-                        case "col": // NEEDS FIX
+
+                        case "col":
+
                             int count = 0;
                             foreach (var item in rowList)
                             {
@@ -139,14 +154,18 @@ namespace _53_Matrix_Operator
                             break;
                     }
                     break;
+
                 case "even":
+
                     switch (position)
                     {
                         case "row":
                             rowList[index] = rowList[index].Where(o => Math.Abs(o) % 2 == 1).ToList(); // its working
                             Console.WriteLine(string.Join(" ", rowList[index]));
                             break;
+
                         case "col":
+
                             int count = 0;
                             foreach (var item in rowList)
                             {

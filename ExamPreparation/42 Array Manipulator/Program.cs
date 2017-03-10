@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _42_Array_Manipulator
 {
@@ -10,7 +7,11 @@ namespace _42_Array_Manipulator
     {
         public static void Main(string[] args)
         {
-            var input = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var input = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToArray();
+
             string lines = Console.ReadLine();
 
             while (lines != "end")

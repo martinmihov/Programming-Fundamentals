@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _13_Endurance_Rally
 {
@@ -10,9 +8,18 @@ namespace _13_Endurance_Rally
     {
         public static void Main(string[] args)
         {
-            string[] drivers = Console.ReadLine().Split().ToArray();
-            decimal[] zones = Console.ReadLine().Split().Select(decimal.Parse).ToArray();
-            int[] checkpoints = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            string[] drivers = Console.ReadLine()
+                .Split()
+                .ToArray();
+
+            decimal[] zones = Console.ReadLine()
+                .Split().Select(decimal.Parse)
+                .ToArray();
+
+            int[] checkpoints = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToArray();
 
             Dictionary<string, decimal> fuelTanks = new Dictionary<string, decimal>();
 

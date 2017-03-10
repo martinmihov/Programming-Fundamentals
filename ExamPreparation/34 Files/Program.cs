@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _34_Files
 {
@@ -17,12 +15,16 @@ namespace _34_Files
 
             for (int i = 0; i < n; i++)
             {
-                string[] routeParams = Console.ReadLine().Split(new[] { '\\' }.ToArray());
+                string[] routeParams = Console.ReadLine()
+                    .Split(new[] { '\\' }
+                    .ToArray());
+
                 string root = routeParams[0];
 
                 string[] fileWithSize = routeParams[routeParams.Length - 1].Split(';');
 
                 string fileNameWithExtension = fileWithSize[0];
+
                 BigInteger fileSize = BigInteger.Parse(fileWithSize[1]);
 
                 if (!files.ContainsKey(root))
@@ -39,7 +41,9 @@ namespace _34_Files
                 }
             }
 
-            string[] extensionInRoot = Console.ReadLine().Split(new[] { ' ' });
+            string[] extensionInRoot = Console.ReadLine()
+                .Split(new[] { ' ' });
+
             string extensionCheck = extensionInRoot[0];
             string rootCheck = extensionInRoot[2];
 

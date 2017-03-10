@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace _43_Football_Standings
 {
@@ -18,6 +16,7 @@ namespace _43_Football_Standings
             string lines = Console.ReadLine();
 
             Regex regex = new Regex($@"{key}(.*?){key}.+?{key}(.*?){key}.+?(\d+):(\d+)");
+
             Dictionary<string, BigInteger> leagueStandings = new Dictionary<string, BigInteger>();
 
             Dictionary<string, BigInteger> scoredGoals = new Dictionary<string, BigInteger>();

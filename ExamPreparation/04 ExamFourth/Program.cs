@@ -61,7 +61,8 @@ namespace _04_ExamFourth
 
             }
 
-            string[] finalCommand = Console.ReadLine().Split(new[] { '\\' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+            string[] finalCommand = Console.ReadLine()
+                .Split(new[] { '\\' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
 
             if (finalCommand.Length == 1)
             {
@@ -81,7 +82,9 @@ namespace _04_ExamFourth
                 string soldierType = finalCommand[1];
 
 
-                foreach (var item in army.Where(o => o.Value.ContainsKey(soldierType)).OrderByDescending(o => o.Value[soldierType]))
+                foreach (var item in army.Where(o => o.Value.ContainsKey(soldierType))
+                    .OrderByDescending(o => o.Value[soldierType]))
+
                 {
                     if(activity > armyWithLastActivity[item.Key])
                     {

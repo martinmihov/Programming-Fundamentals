@@ -27,7 +27,6 @@ namespace _32_Command_Interpreter
                         if (IsValid(array, reverseStart, reverseCount))
                         {
                             Reversed(array, reverseStart, reverseCount);
-                            //array.Reverse(reverseStart, reverseCount);
                         }
                         else
                         {
@@ -43,7 +42,6 @@ namespace _32_Command_Interpreter
                         if (IsValid(array, sortStart, sortCount))
                         {
                             Sort(array, sortStart, sortCount);
-                            //array.Sort(sortStart, sortCount,StringComparer.InvariantCulture);
                         }
                         else
                         {

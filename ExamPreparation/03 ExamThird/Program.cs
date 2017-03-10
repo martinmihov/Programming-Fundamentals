@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace _03_ExamThird
 {
@@ -32,6 +30,7 @@ namespace _03_ExamThird
                     hornetsGroups.Remove(hornetsGroups[0]);
                 }
             }
+
             if(beesLeft.Length == 0)
             {
                 Console.WriteLine(string.Join(" ",hornetsGroups));

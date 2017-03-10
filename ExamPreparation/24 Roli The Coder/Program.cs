@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _24_Roli_The_Coder
 {
@@ -32,7 +30,9 @@ namespace _24_Roli_The_Coder
 
                     if (eventHasParticipants)
                     {
-                        participants = input.Substring(input.IndexOf('@')).Split().Where(a=> a != string.Empty).ToArray();
+                        participants = input.Substring(input.IndexOf('@'))
+                            .Split().Where(a=> a != string.Empty)
+                            .ToArray();
                     }
 
                     if (!events.ContainsKey(ID))
@@ -46,7 +46,9 @@ namespace _24_Roli_The_Coder
                     if(events[ID].Name == eventName)
                     {
                         events[ID].Participants.AddRange(participants);
-                        events[ID].Participants = events[ID].Participants.Distinct().ToList();
+                        events[ID].Participants = events[ID]
+                            .Participants.Distinct()
+                            .ToList();
                     }
                 }
                 input = Console.ReadLine();

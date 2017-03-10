@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Count Working Days", "01 Count Working Days\01 Count Working Days.csproj", "{F2DE0A33-6D89-46A9-B89F-09FEDC6CDDDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Intersection of Circles", "03 Intersection of Circles\03 Intersection of Circles.csproj", "{E1653181-2694-4204-90D1-E81776FD1320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Advertisement Message", "02 Advertisement Message\02 Advertisement Message.csproj", "{6C9EBE89-A978-474F-90CD-45DE6D852FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Avarage Grades", "04 Avarage Grades\04 Avarage Grades.csproj", "{E8915DB9-4E1E-47C9-B7FC-02F0D9E48917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Book Library", "05 Book Library\05 Book Library.csproj", "{DBD0DC30-F999-431C-9D40-590C9A9C6962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Book Library Modification", "06 Book Library Modification\06 Book Library Modification.csproj", "{08342F30-8C39-4D29-8833-CA099C88011C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07  Andrey and billiard", "07  Andrey and billiard\07  Andrey and billiard.csproj", "{9C3E14A2-CB78-457E-BBF6-8C8C975F9EAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "071 Andrey and billiard", "071 Andrey and billiard\071 Andrey and billiard.csproj", "{EF9BEF61-1840-4090-93BB-B62554EFAA0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Mentor Group", "08 Mentor Group\08 Mentor Group.csproj", "{F523A2B9-20ED-4512-B255-E07CF4C440E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 TeamWork Projects", "09 TeamWork Projects\09 TeamWork Projects.csproj", "{821523F8-DF46-493F-BAF3-5294B907F834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Students by Group", "10 Students by Group\10 Students by Group.csproj", "{F4598EB7-5CAF-4BE0-A1C6-35E3AD420DB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2DE0A33-6D89-46A9-B89F-09FEDC6CDDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DE0A33-6D89-46A9-B89F-09FEDC6CDDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DE0A33-6D89-46A9-B89F-09FEDC6CDDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DE0A33-6D89-46A9-B89F-09FEDC6CDDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1653181-2694-4204-90D1-E81776FD1320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1653181-2694-4204-90D1-E81776FD1320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1653181-2694-4204-90D1-E81776FD1320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1653181-2694-4204-90D1-E81776FD1320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9EBE89-A978-474F-90CD-45DE6D852FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9EBE89-A978-474F-90CD-45DE6D852FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9EBE89-A978-474F-90CD-45DE6D852FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9EBE89-A978-474F-90CD-45DE6D852FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8915DB9-4E1E-47C9-B7FC-02F0D9E48917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8915DB9-4E1E-47C9-B7FC-02F0D9E48917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8915DB9-4E1E-47C9-B7FC-02F0D9E48917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8915DB9-4E1E-47C9-B7FC-02F0D9E48917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD0DC30-F999-431C-9D40-590C9A9C6962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD0DC30-F999-431C-9D40-590C9A9C6962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD0DC30-F999-431C-9D40-590C9A9C6962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD0DC30-F999-431C-9D40-590C9A9C6962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08342F30-8C39-4D29-8833-CA099C88011C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08342F30-8C39-4D29-8833-CA099C88011C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08342F30-8C39-4D29-8833-CA099C88011C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08342F30-8C39-4D29-8833-CA099C88011C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3E14A2-CB78-457E-BBF6-8C8C975F9EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3E14A2-CB78-457E-BBF6-8C8C975F9EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3E14A2-CB78-457E-BBF6-8C8C975F9EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3E14A2-CB78-457E-BBF6-8C8C975F9EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9BEF61-1840-4090-93BB-B62554EFAA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9BEF61-1840-4090-93BB-B62554EFAA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9BEF61-1840-4090-93BB-B62554EFAA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9BEF61-1840-4090-93BB-B62554EFAA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F523A2B9-20ED-4512-B255-E07CF4C440E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F523A2B9-20ED-4512-B255-E07CF4C440E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F523A2B9-20ED-4512-B255-E07CF4C440E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F523A2B9-20ED-4512-B255-E07CF4C440E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821523F8-DF46-493F-BAF3-5294B907F834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821523F8-DF46-493F-BAF3-5294B907F834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821523F8-DF46-493F-BAF3-5294B907F834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821523F8-DF46-493F-BAF3-5294B907F834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4598EB7-5CAF-4BE0-A1C6-35E3AD420DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4598EB7-5CAF-4BE0-A1C6-35E3AD420DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4598EB7-5CAF-4BE0-A1C6-35E3AD420DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4598EB7-5CAF-4BE0-A1C6-35E3AD420DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
